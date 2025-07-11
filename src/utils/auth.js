@@ -12,7 +12,7 @@ const MOCK_USERS = [
   {
     id: '1',
     email: 'demo@example.com',
-    password: 'password123', // In real app, this would be hashed
+    password: 'Password123', // In real app, this would be hashed
     firstName: 'Demo',
     lastName: 'User',
     createdAt: new Date().toISOString(),
@@ -243,6 +243,6 @@ export const getLastLoginTime = () => {
 export const getDemoCredentials = () => {
   return {
     email: 'demo@example.com',
-    password: 'password123'
+    password: 'Password123'
   }
 }
